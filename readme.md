@@ -15,7 +15,7 @@ Dataset_Ginjal : https://www.kaggle.com/datasets/ahmad03038/chronic-kidney-disea
 
 ## Tech Stack
 
-**Library:** streamlit, pandas, matplotlib.pyplot, sklearn
+**Library:** streamlit, pandas, matplotlib, sklearn
 
 
 ## UI
