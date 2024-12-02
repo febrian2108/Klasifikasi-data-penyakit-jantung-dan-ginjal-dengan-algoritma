@@ -34,7 +34,6 @@ Dataset_Ginjal : https://www.kaggle.com/datasets/ahmad03038/chronic-kidney-disea
 2. Go to project
    ```sh
    cd Klasifikasi-data-penyakit-dengan-algoritma
-   cd app
    ```
 3. Build env 
    ```sh
