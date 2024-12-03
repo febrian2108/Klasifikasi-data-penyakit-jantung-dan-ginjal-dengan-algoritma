@@ -20,14 +20,9 @@ try:
 except FileNotFoundError:
     st.error("File 'Dataset_Ginjal.csv' tidak ditemukan. Periksa path dan lokasi file!")
 
-try:
-    data_diabetes = pd.read_csv('dataset/Dataset_Diabetes.csv')
-except FileNotFoundError:
-    st.error("File 'Dataset_Diabetes.csv' tidak ditemukan. Periksa path dan lokasi file!")
-
 
 # Menampilkan web
-st.title('Klasifikasi Penyakit Jantung, Ginjal, dan Diabetes')
+st.title('Klasifikasi Penyakit Jantung, dan Ginjal')
 st.write("""
     # Menggunakan beberapa algoritma dan dataset yang berbeda
     #### Mana yang Terbaik?
@@ -37,7 +32,7 @@ st.write("""
 # Menampilkan pilihan dataset
 nama_dataset = st.sidebar.selectbox(
     'Pilih Dataset',
-    ('Penyakit Jantung', 'Penyakit Ginjal', 'Diabetes')
+    ('Penyakit Jantung', 'Penyakit Ginjal')
 )
 
 st.write(f"## Dataset {nama_dataset}")
@@ -54,11 +49,8 @@ def pilih_dataset(nama):
     if nama == 'Penyakit Jantung':
         data = data_jantung
         return data
-    elif nama == 'Penyakit Ginjal':
-        data = data_ginjal
-        return data
     else:
-        data = data_diabetes
+        data = data_ginjal
         return data
 
 # Preprocessing dataset
