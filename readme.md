@@ -1,12 +1,10 @@
 
-# Klasifikasi Penyakit Jantung, Ginjal, dan Diabetes
+# Klasifikasi Penyakit Jantung, dan Ginjal
 
 Program ini menggunakan algoritma Machine Learning K-Nearest Neighbor (KNN), Support Vector Machine (SVM), dan Random Forest.
 Dataset yang di gunakan berasal dari website kaggle sebagai berikut:
 
 Dataset_Jantung : https://www.kaggle.com/datasets/amiramohammedi07/heart-disease-prediction-csv
-
-Dataset_Diabetes : https://www.kaggle.com/datasets/willianoliveiragibin/indians-diabetes-v5
 
 Dataset_Ginjal : https://www.kaggle.com/datasets/ahmad03038/chronic-kidney-disease-diagnosis-dataset
 
