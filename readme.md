@@ -18,9 +18,9 @@ Dataset_Ginjal : https://www.kaggle.com/datasets/ahmad03038/chronic-kidney-disea
 
 ## UI
 
-![App Screenshot](https://imgur.com/ndrCQtv.png)
+![App Screenshot](https://imgur.com/7nMQr2j.png)
 
-![App Screenshot](https://imgur.com/1UANMix.png)
+![App Screenshot](https://imgur.com/7nMQr2j.png)
 
 
 ## Installation
